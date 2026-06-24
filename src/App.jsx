@@ -7,7 +7,7 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
-  return (
+  return ( 
     <center class="todo-container">
       <h1 style={{'background':'yellow'}}>Todo App </h1>
       <div class="container text-center">
@@ -22,9 +22,21 @@ function App() {
       <button type="button" class="btn btn-success">ADD</button>
       </div>
   </div>
-</div>
+
+<div class="row">
+    <div class="col-6">
+      buy cloths
+      </div>
+    <div class="col-4">
+      22/10/2026
+      </div>
+    <div class="col-2">
+      <button type="button" class="btn btn-danger">Delete</button>
+      </div>
+  </div>
+  </div>
     </center>
-  )
+  );
 }
 
-export default App
+export default App;
