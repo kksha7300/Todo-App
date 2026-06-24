@@ -12,7 +12,9 @@ function App() {
       <h1 style={{'background':'yellow'}}>Todo App </h1>
       <div class="container text-center">
   <div class="row">
-    <div class="col-6">col-6</div>
+    <div class="col-6">
+      <input type="text" placeholder= "enter something here"/>
+      </div>
     <div class="col-4">col-4</div>
     <div class="col-2">col-2</div>
   </div>
