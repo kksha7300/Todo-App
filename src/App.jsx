@@ -15,7 +15,9 @@ function App() {
     <div class="col-6">
       <input type="text" placeholder= "enter something here"/>
       </div>
-    <div class="col-4">col-4</div>
+    <div class="col-4">
+      <input type='date'/>
+      </div>
     <div class="col-2">col-2</div>
   </div>
 </div>
